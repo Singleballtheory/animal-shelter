@@ -1,3 +1,32 @@
+body {
+  background-color:rgb(107, 185, 190);
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 100px;
+  border: royalblue 10px double;
+  display: inline;
+}
+
+img {
+  width: 300px;
+}
 .column {
-  
+  float: left;
+  margin: 20px;
+  border-radius: 12px;
+  border: rgb(187, 243, 187) 5px solid;
+  background-color: honeydew;
+  padding: 10px;
+  border-bottom: 5px solid gold;
+}
+.column p{
+  text-align: center;
+}
+
+.adopt {
+  display: block;
+  clear: left;
 }
